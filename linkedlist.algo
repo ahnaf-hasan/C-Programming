@@ -21,7 +21,7 @@ bool isEmpty(){
    return head == NULL;
 }
 
-//display the doubly linked list
+//display
 void printList(){
    struct node *ptr = head;
    while(ptr != NULL) {
@@ -53,7 +53,7 @@ void insertFirst(int key, int data){
    //point first to new first link
    head = link;
 }
-//insert
+
 void main(){
    insertFirst(0,0);
    insertFirst(1,10);
